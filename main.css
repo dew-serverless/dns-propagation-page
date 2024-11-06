@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-logo-bg: #f8fafc;
+  --color-spotlight: #e2f4ff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-logo-bg: #020c24;
+    --color-spotlight: #093655;
+  }
+}
